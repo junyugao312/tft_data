@@ -1,2 +1,2 @@
 # tft_data
-Test project
+I am pulling tft challenger match data from RIOT API. The aim of the project is to classify each match datapoint into comps via clustering. Some statistics based analysis are available on e.g. reddit, but most of them only count each specific comp. For example if someone plays blaster brawlers with Asol instead of MF, it might not show up on the statistics since it is different from the mainstream version. Kayle comps often have less representation since they have many variation. I want to group the data into comps without pre-defining what the comps are. This way, I might be able to identify new interesting comps being played but not yet mainstream. 
