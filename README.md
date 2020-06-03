@@ -2,7 +2,7 @@
 I am pulling tft challenger match data from RIOT API. The aim of the project is to classify each match datapoint into comps via clustering. Some statistics based analysis are available on e.g. reddit, but most of them only count each specific comp. For example if someone plays blaster brawlers with Asol instead of MF, it might not show up on the statistics since it is different from the mainstream version. Kayle comps often have less representation since they have many variation. I want to group the data into comps without pre-defining what the comps are. This way, I might be able to identify new interesting comps being played but not yet mainstream. 
 
 Sample results:
-
+```
 ['Set3_Celestial_1.0', 'DarkStar_1.0', 'Sniper_1.0', 'Set3_Mystic_0.7', 'Chrono_0.6', 'Vanguard_0.6', 'Set3_Sorcerer_0.5', 'ManaReaver_0.2', 'Protector_0.2', 'Set3_Brawler_0.1']
 Playrate:  7.67 %
 Average placement:  4.81
@@ -73,3 +73,4 @@ Average placement with 0, 1, 2 contesters:  4.13 4.36 4.8
 Winrate:  14.29 %
 Winrate with 0, 1, 2 contesters:  16.24 % 12.04 % 10.61 %
 -------------------------------------------------------------------------
+```
